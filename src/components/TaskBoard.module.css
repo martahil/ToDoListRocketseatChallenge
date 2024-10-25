@@ -1,0 +1,70 @@
+.board {
+  width: 46rem;
+  margin: 0 auto;
+}
+
+.createdAndCompletedTasks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5625rem;
+}
+
+.createdTasksDiv,
+.completedTasksDiv {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.createdTasksTxt {
+  color: var(--blue-100);
+  margin-right: 0.75rem;
+}
+
+.completedTasksTxt {
+  color: var(--purple-100);
+  margin-right: 0.75rem;
+}
+
+.createdTasksCounter,
+.completedTasksCounter {
+  color: var(--gray-300);
+  font-size: 0.75rem;
+  border-radius: 999px;
+  background-color: var(--gray-400);
+  padding: 0.15625rem 0.5rem;
+}
+
+.individualTaks {
+  margin-bottom: 0.85rem;
+  background: var(--gray-500);
+  border: 2px solid var(--gray-400);
+  border-radius: 8px;
+  padding: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio {
+  color: transparent;
+  border-radius: 999px;
+  background-color: var(--gray-500);
+  border: 2px solid var(--blue-100);
+}
+
+.radioAndTxt label {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  color: var(--gray-100);
+}
+
+.radioAndTxt {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.deleteIcon {
+  color: var(--gray-300);
+}
